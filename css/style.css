@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #FFC107;
 }
@@ -6,6 +9,7 @@ h1, p{
 }
 a{
     cursor: pointer;
+    text-decoration: none;
 }
 section .container .row p a:hover{
     color: #000;
@@ -35,10 +39,10 @@ header .navbar .container .collapse .navbar-nav .nav-item a.btn:hover{
 }
 #link-footer{
     color: rgb(0, 68, 255);
-    text-decoration: underline;
+    text-decoration: none;
 }
 #link-footer:hover{
-    color: rgb(0, 145, 255);
+    color: rgb(9, 42, 130);
     text-decoration: underline;
 }
 .navbar-toggler:focus,
@@ -49,4 +53,33 @@ header .navbar .container .collapse .navbar-nav .nav-item a.btn:hover{
     header .navbar .container .navbar-brand img{
         width: 8.5em;
     }
+}
+section span#texto-login-img{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+div#card-login{
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 10px; 
+    box-shadow: 1px 1px 2px #000;
+    display: inline-block;
+}
+div#card-login h4{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+div#card-login input{
+    font-size:1.5em;
+    width: 100%;
+    outline: none;
+}
+div#card-login button{
+   margin-top: 8px;
+    font-size: 1.5em;
+    width: 100%;
+}
+#botoes-login{
+    margin-top: 20px;
 }
